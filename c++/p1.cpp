@@ -23,6 +23,7 @@ class Solution1 {
           }
         }
       }
+      return result;
     }
 };
 
@@ -41,5 +42,7 @@ class Solution2 {
         }
         visited[nums[i]] = i;
       }
+      vector<int> result;
+      return result;
     }
 };
